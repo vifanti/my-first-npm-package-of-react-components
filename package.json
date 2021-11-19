@@ -1,0 +1,26 @@
+{
+  "name": "my-first-npm-package-of-react-components",
+  "version": "1.0.0",
+  "description": "Learning how to create React modules using TypeScript!",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/cjs/index.js",
+  "types": "./lib/cjs/index.d.ts",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.35",
+    "@types/react-dom": "^17.0.11",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.5.2"
+  },
+  "files": [
+    "/lib"
+ ]
+}
